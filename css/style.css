@@ -78,5 +78,13 @@ ul{
 .v{
     border: 3px solid greenyellow;
     border-radius: 38%;
+    padding: 1px;
     color: greenyellow;
+}
+.x{
+    border: 3px solid red;
+    border-radius: 38%;
+    padding: 1px;
+    color: red;
+
 }
