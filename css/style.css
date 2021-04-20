@@ -1,5 +1,6 @@
 body{
     background-color: rgb(236, 236, 236);
+    font-family:sans-serif;
 }
 
 header{
@@ -32,6 +33,13 @@ header{
     
 }
 
+.cerchi-viola{
+    background-color: rgb(150, 18, 150);
+    color: white;
+    border: 5px solid rgb(150, 18, 150);
+    border-radius: 10px;
+}
+
 .grigio{
     background-color: rgb(250, 250, 250);
     color: gray;
@@ -42,4 +50,33 @@ button{
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+ul{
+    list-style-type:none;
+   
+}
+.elementi-li{
+    height: 30px;
+    display: inline-block;
+}
+
+.cerchi-blue{
+    border: 5px solid rgb(76, 145, 235);
+    border-radius: 10px;
+    background-color: rgb(76, 145, 235);
+    color:white;
+    
+}
+.cerchi-green{
+    border: 5px solid green;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+}
+
+.v{
+    border: 3px solid greenyellow;
+    border-radius: 38%;
+    color: greenyellow;
 }
